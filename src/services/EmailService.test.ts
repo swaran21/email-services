@@ -7,7 +7,7 @@ import { RateLimiter } from "./RateLimiter";
 import { Email } from "../models/Email";
 import { appConfig } from "../config/app.config";
 
-// Mock dependencies
+
 const mockLogger: ILogger = {
   info: jest.fn(),
   warn: jest.fn(),

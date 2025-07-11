@@ -62,7 +62,7 @@ export class CircuitBreaker {
       ) {
         this.trip();
       }
-      throw err; // Re-throw the original error
+      throw err;
     }
   }
 }

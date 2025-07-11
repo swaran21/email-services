@@ -56,9 +56,7 @@ export class StatusTracker {
     return this.statuses.get(id);
   }
 
-  /**
-   * Checks if an ID is already being processed to ensure idempotency.
-   */
+
   public isKnownId(id: string): boolean {
     return this.statuses.has(id);
   }

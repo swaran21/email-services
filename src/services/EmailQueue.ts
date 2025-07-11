@@ -1,7 +1,7 @@
 import { Email } from "../models/Email";
 
 export interface QueuedEmail {
-  id: string; // Idempotency key
+  id: string;
   email: Email;
 }
 
